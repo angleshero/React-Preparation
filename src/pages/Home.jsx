@@ -8,16 +8,16 @@ const Home = () => {
       <div className="user">
         <div className="user-card">
           <div className="user-card__container">
-            <h3>{user.name}</h3>
+            <h3>user.name</h3>
             <p>
-              <b>Email:</b> {user.email}
+              <b>Email:</b> user.email
             </p>
             <p>
-              <b>Phone:</b> {user.phone}
+              <b>Phone:</b> user.phone
             </p>
             <p>
               <b>Website:</b>
-              {user.website}
+              user.website
             </p>
           </div>
         </div>
